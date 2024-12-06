@@ -1,0 +1,61 @@
+.invoice-container {
+  width: 90%;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.member-info {
+  width: 48%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.member-info strong {
+  font-size: 14px;
+}
+
+.collected-amount {
+  color: blue;
+  font-weight: bold;
+}
+
+.balance-amount {
+  color: red;
+  font-weight: bold;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions-table th,
+.transactions-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.transactions-table th {
+  background-color: #f1f1f1;
+}
+
+.transactions-table td {
+  background-color: #ffffff;
+}
+
+.transactions-table tr:nth-child(odd) td {
+  background-color: #f9f9f9;
+}
